@@ -1,0 +1,108 @@
+section {
+  padding-top: 60px;
+}
+
+/* -------------------------------------- */
+
+.signup-form {
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(255, 136, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+  text-align: center;
+  margin: auto;
+}
+
+.signup-form h2 {
+  margin: 0 0 20px;
+}
+
+.signup-form input {
+  height: 40px;
+  width: calc(100% - 24px);
+  margin-bottom: 20px;
+  padding: 24px 16px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.signup-form input:hover {
+  border-color: #007bff;
+}
+
+.signup-form button {
+  border: none;
+  cursor: pointer;
+  margin-left: -10px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #00b33c;
+}
+
+/* -------------------------------------- */
+
+.card-container {
+  /* width: 300px; */
+  background-color: #8da553;
+  border-radius: 8px;
+  padding: 16px 8px;
+  margin: auto;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  background-size: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 16px;
+  min-height: 200px;
+}
+
+.card-body h1 {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.card-body p {
+  font-size: 14px;
+  margin: 8px 0 16px 0;
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+}
+
+.card-author p {
+  margin: 0 16px;
+  font-size: 12px;
+}
+
+.card-author p:last-child {
+  color: #888;
+}
+
+.card-author img {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
