@@ -2,8 +2,6 @@ section {
   padding-top: 60px;
 }
 
-/* -------------------------------------- */
-
 .signup-form {
   width: 300px;
   padding: 20px;
@@ -22,7 +20,7 @@ section {
   height: 40px;
   width: calc(100% - 24px);
   margin-bottom: 20px;
-  padding: 24px 16px;
+  padding: 16px 16px;
   outline: none;
   border: 1px solid #ddd;
   border-radius: 20px;
@@ -41,7 +39,7 @@ section {
 }
 
 .signup-form button:hover {
-  background-color: #00b33c;
+  background-color: #b30000;
 }
 
 /* -------------------------------------- */
